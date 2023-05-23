@@ -16,7 +16,7 @@
 <body>
     <div class="whole-website">
 
-        <div class="whole-site-c">
+        <div class="whole-site-c" id="whole-site-c">
 
 
             <section class="for-sidebaar" id="for-sidebaar">
@@ -1467,16 +1467,16 @@
                         <div>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="./IMAGES/blue-reactangle.png" class="d-block w-100" alt="Image 1">
+                                    <img src="./IMAGES/back-g.svg" class="d-block w-100" alt="Image 1">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="images/blue-reactangle.png" class="d-block w-100" alt="Image 2">
+                                    <img src="./IMAGES/back-g.svg" class="d-block w-100" alt="Image 2">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="images/blue-reactangle.png" class="d-block w-100" alt="Image 3">
+                                    <img src="./IMAGES/back-g.svg" class="d-block w-100" alt="Image 3">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="images/blue-reactangle.png" class="d-block w-100" alt="Image 4">
+                                    <img src="./IMAGES/back-g.svg" class="d-block w-100" alt="Image 4">
                                 </div>
                             </div>
                             <button class="carousel-control-prev pre-next-btn pre-pre-btn im-l" type="button"
@@ -1520,56 +1520,33 @@
         var div = document.getElementById('for-sidebaar');
         var div1 = document.getElementById('for-whole-site');
         var searchbar_width = document.getElementById('inpt');
+        var div2 = document.getElementById('whole-site-c');
         var hide_8 = document.getElementById('hide-8');
         var hide_7 = document.getElementById('hide-7');
 
 
-
+        div2.style.display='flex';
         div1.style.width = '100%';
         div.style.display = 'none';
-        var display = 0;
+        var display = 1;
         function hs() {
             if (display == 0) {
                 div.style.display = 'none';
-                div.style.width = '20%'
                 display = 1;
-                hide_8.style.display = 'flex';
-                hide_7.style.display = 'flex';
-                hide_6.style.display = 'flex';
-                hide_5.style.display = 'flex';
-
+                div2.style.width = '100%';
+                hide_8.style.display = 'block';    
+                hide_7.style.display = 'block';    
+                
             } else {
                 div.style.display = 'block';
+                div.style.width= '20%';
                 display = 0;
-                div.style.width = '80%';
-                div1.style.width = '100%';
-                searchbar_width.style.width = '70%';
-                hide_8.style.display = 'none';
-                hide_7.style.display = 'none';
-                hide_6.style.display = 'none';
-                hide_5.style.display = 'none';
+                searchbar_width.style.width = '70%';    
+                hide_8.style.display = 'none';    
+                hide_7.style.display = 'none';    
             }
         }
 
-
-
-
-
-
-        var acc = document.getElementsByClassName("accordion");
-        var i;
-
-        for (i = 0; i < acc.length; i++) {
-            acc[i].addEventListener("click", function () {
-                this.classList.toggle("active");
-                var panel = this.nextElementSibling;
-                if (panel.style.maxHeight) {
-                    panel.style.maxHeight = null;
-                } else {
-                    panel.style.maxHeight = panel.scrollHeight + "px";
-                }
-            });
-        }
     </script>
 
 
