@@ -416,7 +416,8 @@ img.sub-img {
 }
 @media (max-width: 810px) {
   .hide-track,
-  .hide-offer {
+  .hide-offer,
+  .hide-deliver {
     display: none;
   }
   .scnd-list {
@@ -449,9 +450,6 @@ img.sub-img {
   .scnd-nav,
   .thrd-nav {
     padding: 0% 2%;
-  }
-  .hide-deliver {
-    display: none;
   }
   .scnd-line-img {
     padding-right: 10px;
@@ -486,15 +484,6 @@ img.sub-img {
   }
 }
 /* _____________________________________________________ */
-.carousel-control-prev-icon {
-  background-color: #009090;
-  opacity: 100 !important;
-  padding-right: 20px;
-  border-radius: 50%;
-  border: 10px solid white;
-  opacity: 1 !important;
-}
-
 .carousel .pre-next-btn {
   display: flex;
   justify-content: center;
@@ -504,7 +493,7 @@ img.sub-img {
 }
 
 .pre-pre-btn {
-  left: -8% !important;
+  left: -7.5% !important;
 }
 
 .carousel .next-next-btn {
@@ -513,7 +502,7 @@ img.sub-img {
   align-items: center;
   text-align: center;
   padding-bottom: 0px;
-  right: -8%;
+  right: -7.5%;
 }
 
 .carousel-inner {
@@ -532,14 +521,8 @@ img.sub-img {
   width: 8px;
   background-color: white;
   border-radius: 50%;
-  margin: 0 5px;
+  margin: 39px 5px;
   cursor: pointer;
-}
-
-.carousel.slide .carousel-indicators .slider-dot.active {
-  width: 14px;
-  height: 8px;
-  border-radius: 45% !important;
 }
 
 .slideeeer {
@@ -565,6 +548,10 @@ img.sub-img {
   text-decoration: none;
 }
 
+ul.all-lista {
+  padding-left: 0rem !important;
+}
+
 .all-lista li {
   padding-top: 40px;
   text-decoration: none;
@@ -580,4 +567,99 @@ img.sub-img {
 }
 .all-lista .bg-wh {
   background-color: #F3F9FB !important;
+}
+
+.all-lubhavnu {
+  width: 83.5%;
+  justify-content: space-between;
+  display: flex;
+  position: absolute;
+  color: black;
+  top: 0px;
+  left: 90px;
+  gap: 10px;
+}
+.all-lubhavnu .best-deal {
+  padding-top: 40px;
+  font-family: "HK Grotesk";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+.all-lubhavnu .smart-wear {
+  padding-top: 20px;
+  font-family: "HK Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 63px;
+  line-height: 63px;
+  color: #FFFFFF;
+}
+.all-lubhavnu .upto-off {
+  padding-top: 20px;
+  font-family: "HK Grotesk";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+.all-lubhavnu .wrist-watch {
+  padding-top: 24px;
+  align-self: flex-start;
+}
+
+.carousel-item {
+  position: relative;
+}
+
+.d-block {
+  height: 316px;
+  background-color: #212844;
+}
+
+.d-block-1 {
+  background-color: #2b0303;
+}
+
+.d-block-2 {
+  background-color: #354e1e;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  display: inline-block;
+  width: 4rem !important;
+  height: 4rem !important;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: 30% !important;
+}
+
+.slider-left-arrow {
+  background-color: #f5ffff !important;
+  opacity: 100 !important;
+  padding: 23px;
+  border-radius: 50%;
+  border: 8px solid white;
+}
+
+.slider-right-arrow {
+  background-color: #f5ffff !important;
+  opacity: 100 !important;
+  padding: 23px;
+  border-radius: 50%;
+  border: 8px solid white;
+}
+
+.carousel-control-next, .carousel-control-prev {
+  opacity: unset !important;
+}
+
+@media (max-width: 1355px) {
+  .carousel.slide .carousel-indicators.custom {
+    margin: 5px;
+    justify-content: center;
+  }
 }/*# sourceMappingURL=main.css.map */
