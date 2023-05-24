@@ -12,8 +12,6 @@ var div = document.getElementById('for-sidebaar');
         var display = 1;
         function hs() {
             if (display == 0) {
-                hide_8.style.display = 'block';    
-                hide_7.style.display = 'block';
                 div.style.display = 'none';
                 display = 1;
                 div2.style.width = '100%';    
@@ -22,8 +20,6 @@ var div = document.getElementById('for-sidebaar');
                 div.style.display = 'block';
                 div.style.width= '20%';
                 display = 0;
-                searchbar_width.style.width = '70%';    
-                hide_8.style.display = 'none';    
-                hide_7.style.display = 'none';    
+                searchbar_width.style.width = '70%';   
             }
         }
