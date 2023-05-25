@@ -17,7 +17,7 @@ ul::-webkit-scrollbar {
 }
 
 .fist-block {
-  font-family: "HK Grotesk";
+  font-family: "Hanken Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -75,7 +75,7 @@ input {
 
 /* second block starts */
 .scnd-block {
-  font-family: "HK Grotesk";
+  font-family: "Hanken Grotesk", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -151,7 +151,7 @@ img.scnd-menu-btn {
 }
 
 .thrd-block {
-  font-family: "HK Grotesk";
+  font-family: "Hanken Grotesk", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -181,7 +181,7 @@ img.scnd-menu-btn {
 }
 
 .thrd-drp-down a {
-  font-family: "HK Grotesk";
+  font-family: "Hanken Grotesk", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -334,7 +334,7 @@ img.sub-img {
 }
 
 .thrd-sub-drp-down a {
-  font-family: "HK Grotesk";
+  font-family: "Hanken Grotesk", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -353,7 +353,7 @@ img.sub-img {
 }
 
 .thrd-subsub-drp-down a {
-  font-family: "HK Grotesk";
+  font-family: "Hanken Grotesk", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -433,13 +433,14 @@ img.sub-img {
 
 .heading-menu-s {
   text-align: center;
-  font-family: "HK Grotesk";
+  font-family: "Hanken Grotesk", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 18px;
   color: #222222;
   text-decoration: none;
+  padding: 15px 8px;
 }
 
 ul.all-lista {
@@ -451,7 +452,7 @@ ul.all-lista {
   text-decoration: none;
 }
 .all-lista li a {
-  font-family: "HK Grotesk";
+  font-family: "Hanken Grotesk", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -475,7 +476,7 @@ ul.all-lista {
 }
 .all-lubhavnu .best-deal {
   padding-top: 40px;
-  font-family: "HK Grotesk";
+  font-family: "Hanken Grotesk", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 30px;
@@ -484,7 +485,7 @@ ul.all-lista {
 }
 .all-lubhavnu .smart-wear {
   padding-top: 20px;
-  font-family: "HK Grotesk";
+  font-family: "Hanken Grotesk", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 63px;
@@ -493,7 +494,7 @@ ul.all-lista {
 }
 .all-lubhavnu .upto-off {
   padding-top: 20px;
-  font-family: "HK Grotesk";
+  font-family: "Hanken Grotesk", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 30px;
@@ -522,7 +523,8 @@ ul.all-lista {
   background-color: #354e1e;
 }
 
-.carousel-control-next-icon, .carousel-control-prev-icon {
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
   display: inline-block;
   width: 4rem !important;
   height: 4rem !important;
@@ -547,8 +549,87 @@ ul.all-lista {
   border: 8px solid white;
 }
 
-.carousel-control-next, .carousel-control-prev {
+.carousel-control-next,
+.carousel-control-prev {
   opacity: unset !important;
+}
+
+.sidebar-close-btn {
+  display: none;
+}
+
+.containera {
+  padding-left: 0px !important;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #EDEDED;
+  margin-top: 3%;
+}
+.containera .view-all-c {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.containera .txt-grbd {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #666666;
+  padding-bottom: 16px;
+  border-bottom: 3px solid #008ECC;
+}
+.containera .v-img {
+  padding-left: 6px;
+  padding-bottom: 3px;
+}
+.containera .v-txt {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: right;
+  color: #222222;
+}
+
+.fifty-6-off {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #008ECC;
+  border-radius: 0px 16px;
+  font-family: "Hanken Grotesk", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 11px 8px 10px 8px;
+}
+
+.card {
+  width: 227px !important;
+}
+
+.on-line {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-decoration-line: line-through;
+  color: #222222;
+}
+
+.hide-logo-side {
+  display: none;
+}
+
+.scnd-sidebar {
+  display: none;
 }
 
 @media (max-width: 1355px) {
@@ -559,4 +640,339 @@ ul.all-lista {
   .carousel.slide .carousel-indicators .slider-dot {
     margin: 0px 3px;
   }
+}
+.grab-the-best-deal {
+  padding: 0 10%;
+}
+
+.phone-div {
+  width: 227px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #F5F5F5;
+  border-radius: 16px !important;
+}
+
+.phone-img {
+  height: 100%;
+  padding: 2px;
+}
+
+.card-group {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.card-title {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 18px;
+  color: #222222;
+}
+
+.card-text {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  /* identical to box height, or 112% */
+  /* HEading */
+  color: #222222;
+}
+
+@media (min-width: 576px) {
+  .card-group > .card.card {
+    margin-left: 0;
+  }
+}
+@media (min-width: 576px) and (min-width: 576px) {
+  .card-group > .card {
+    flex: none !important;
+    margin-bottom: 0;
+  }
+}
+@media (min-width: 576px) {
+  .card-group .card {
+    border: 1px solid #EDEDED;
+    border-radius: 16px !important;
+  }
+}
+@media (max-width: 1834px) {
+  .hide-8 {
+    display: none;
+  }
+}
+@media (max-width: 1525px) {
+  .hide-8 {
+    display: none;
+  }
+  .hide-7 {
+    display: none;
+  }
+  input {
+    width: 80%;
+  }
+}
+@media (max-width: 1243px) {
+  .hide-6 {
+    display: none;
+  }
+  .slider-left-arrow,
+  .slider-right-arrow {
+    padding: 13px;
+  }
+  .all-lubhavnu {
+    left: 45px;
+  }
+  .all-lubhavnu .best-deal {
+    padding-top: 15px;
+  }
+  .all-lubhavnu .smart-wear {
+    padding-top: 10px;
+  }
+  .all-lubhavnu .upto-off {
+    padding-top: 10px;
+  }
+  .all-lubhavnu .wrist-watch {
+    padding-top: 4px;
+  }
+}
+@media (max-width: 1060px) {
+  .hide-5 {
+    display: none;
+  }
+  .slider-left-arrow,
+  .slider-right-arrow {
+    padding: 10px;
+  }
+}
+@media (max-width: 672px) {
+  .hide-3 {
+    display: none;
+  }
+}
+@media (max-width: 1110px) {
+  .scnd-serch-bar {
+    display: none;
+  }
+  .all-asided {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .hide-logo-side {
+    display: block;
+    background-color: #F3F9FB;
+    border-radius: 10px;
+  }
+  img.hide-logo-side {
+    padding: 10px;
+    border-radius: 50%;
+  }
+  .hide-txt-side {
+    display: none;
+  }
+  .scnd-nav {
+    padding: 1% 10%;
+  }
+  .scnd-sidebar {
+    display: block;
+  }
+  .scnd-serch-bar {
+    margin: 5px 0px;
+    padding: 10px 11px;
+    border-radius: 10px;
+    background-color: #F3F9FB;
+  }
+  input {
+    font-size: 10px !important;
+    border: none;
+  }
+  .heading-menu-s {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 10px;
+  }
+  .heading-menu-s {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 1000px) {
+  .hide-deliver,
+  .hide-track,
+  .hide-offer,
+  .scnd-sign-txt,
+  .scnd-cart-txt {
+    display: none;
+  }
+  .fist-offer-img {
+    padding-right: 0px;
+  }
+  .containera {
+    margin-top: 50px;
+  }
+  .containera .txt-grbd {
+    padding-bottom: 2px;
+  }
+}
+@media (max-width: 856px) {
+  .heading-menu-s {
+    margin-top: 10px;
+    padding: 10px 2px;
+  }
+  .hide-4 {
+    display: none;
+  }
+  .fist-line-img {
+    padding: 0px 6px;
+  }
+}
+@media (max-width: 1080px) {
+  .slider-left-arrow,
+  .slider-right-arrow {
+    padding: 5px;
+  }
+  .fist-welcome,
+  .scnd-nav,
+  .thrd-nav {
+    padding: 0% 3%;
+  }
+  .slideeeer {
+    margin: 2% 5%;
+  }
+  .carousel .next-next-btn {
+    right: 0%;
+  }
+  .pre-pre-btn {
+    left: 0% !important;
+  }
+  .carousel-control-next, .carousel-control-prev {
+    width: 0% !important;
+  }
+  .scnd-nav-sec-1 {
+    margin: 10px 0px;
+  }
+  .grab-the-best-deal {
+    padding: 0 3%;
+  }
+}
+@media (max-width: 950px) {
+  .all-lubhavnu {
+    width: 90%;
+    top: 0px;
+    left: 6%;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .d-block {
+    height: 500px;
+  }
+  .wrist-watch {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+  .all-lubhavnu-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .d-block {
+    height: 600px;
+  }
+}
+@media (max-width: 700px) {
+  .for-sidebaar {
+    position: absolute;
+  }
+  .sidebar {
+    width: 256%;
+  }
+  .sidebar-close-btn {
+    display: block;
+    width: 25px;
+    height: auto;
+    padding: 0 !important;
+  }
+  .button-for-flex {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+@media (max-width: 576px) {
+  .card-group {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .view-all-c {
+    display: none !important;
+  }
+}
+.card {
+  border-radius: 16px;
+}
+
+.wandering-card {
+  border-radius: 16px !important;
+}
+
+.off-text {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  padding: 11px 8px 10px 8px;
+  font-family: "Hanken Grotesk", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #008ECC;
+  border-radius: 0px 16px;
+}
+
+.card-img-top {
+  padding: 20px 51px;
+  background-color: #F5F5F5;
+}
+
+.wandering-card {
+  border: none !important;
+  width: 132px !important;
+  height: 132px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.wandering-card .card-img-top1 {
+  width: 52px;
+}
+
+.card-group1 {
+  justify-content: space-around;
+}
+
+.its-small-img {
+  text-align: center;
+  width: 100%;
+  background-color: #F5F5F5;
+  padding: 17px 40px;
+  border-radius: 50%;
+}
+
+.second-deals-txt {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #222222;
 }/*# sourceMappingURL=main.css.map */
