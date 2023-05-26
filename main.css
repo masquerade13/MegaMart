@@ -1297,8 +1297,8 @@ i {
   color: #249B3E !important;
 }
 
-.card-group .card:hover {
-  border: 1px solid #008ECC;
+.card-group .uni-card:hover {
+  border: 1px solid #008ECC !important;
   box-shadow: 0px 97px 39px rgba(0, 0, 0, 0.01), 0px 54px 33px rgba(0, 0, 0, 0.03), 0px 24px 24px rgba(0, 0, 0, 0.04), 0px 6px 13px rgba(0, 0, 0, 0.05), 0px 0px 0px rgba(0, 0, 0, 0.05);
   border-radius: 16px;
 }/*# sourceMappingURL=main.css.map */
