@@ -42,3 +42,38 @@ window.addEventListener('mouseup',function(event){
         console.log("dis outsider 1")
     }
 });  
+
+
+
+
+var counter = 0;
+const slides = document.querySelectorAll(".slid1") 
+
+slides.forEach(
+    (slide, index) =>{
+        slide.style.left = `${index * 100}%`
+    }
+)
+
+const slideImage = () => {
+    slides.forEach(
+        (slide) => {
+            slide.style.transform = `translateX(-${counter * 100}%)`
+        }
+    )
+}
+
+console.log(slides)
+
+const goPrev = () => {
+    counter--
+    slideImage()
+} 
+
+const goNext = () => {
+    counter++
+    slideImage()
+} 
+
+
+
