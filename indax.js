@@ -34,14 +34,6 @@ function insideclose() {
         console.log("dis 1")
 }
 
-window.addEventListener('mouseup',function(event){
-    var pol = document.getElementById('for-sidebaar');
-    if(event.target != pol && event.target.parentNode != pol){
-        pol.style.display = 'none';
-        display = 1
-        console.log("dis outsider 1")
-    }
-});  
 
 
 
