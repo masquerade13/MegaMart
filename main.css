@@ -1177,8 +1177,8 @@ ul.all-lista {
   margin-top: 120px;
   background: #008ECC;
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   padding-top: 80px;
   gap: 90px;
