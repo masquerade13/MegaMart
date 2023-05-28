@@ -1178,6 +1178,10 @@ ul.all-lista {
   gap: 14px;
 }
 
+.whole-website {
+  overflow-x: hidden;
+}
+
 .final-sec {
   margin-top: 120px;
   background: #008ECC;
