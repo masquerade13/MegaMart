@@ -120,11 +120,16 @@ img.scnd-menu-btn {
   padding-left: 16px;
 }
 
+#inpt {
+  font-size: 14px;
+}
+
 .scnd-serch-bar {
   margin: 21px 0px;
-  padding: 15px 16px;
+  padding: 12px 16px;
   border-radius: 10px;
   background-color: #F3F9FB;
+  width: 507px;
 }
 
 .scnd-list {
@@ -192,7 +197,7 @@ img.scnd-menu-btn {
 
 .thrd-drop-txt-1 {
   text-decoration: none;
-  padding: 9px 6px 9px 14px;
+  padding: 9px 0px 9px 14px;
 }
 
 .whole-in-one {
@@ -255,7 +260,7 @@ img.sub-img {
 
 .thrd-dro-1,
 .submenu1 {
-  margin-left: 10px;
+  margin-left: 0px;
 }
 
 .submenu-links {
@@ -574,6 +579,7 @@ ul.all-lista {
   margin-top: 3%;
 }
 .containera .view-all-c {
+  white-space: nowrap;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -650,7 +656,11 @@ ul.all-lista {
   }
 }
 .grab-the-best-deal {
-  padding: 0 10%;
+  padding: 0 8.33333%;
+}
+
+.shop-ele-top-cat {
+  padding-top: 60px;
 }
 
 .phone-div {
@@ -665,6 +675,10 @@ ul.all-lista {
 .phone-img {
   height: 100%;
   padding: 2px;
+}
+
+p {
+  margin: 0rem !important;
 }
 
 .card-group {
@@ -963,13 +977,29 @@ ul.all-lista {
     justify-content: flex-end;
   }
 }
+@media (max-width: 1044px) {
+  .final-sec {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .pop-categories,
+  .cust-service {
+    align-self: center !important;
+  }
+  .final-sec .stores {
+    flex-direction: column;
+  }
+}
 @media (max-width: 576px) {
   .card-group {
     display: flex;
     flex-flow: row wrap;
   }
-  .view-all-c {
-    display: none !important;
+  .sidebar {
+    width: 402%;
+    height: 120vh;
   }
 }
 .card {
@@ -985,6 +1015,7 @@ ul.all-lista {
   top: 0;
   right: 0px;
   padding: 11px 8px 10px 8px;
+  width: 51px;
   font-family: "Hanken Grotesk", sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -1014,7 +1045,7 @@ ul.all-lista {
 }
 
 .card-group1 {
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .its-small-img {
@@ -1033,6 +1064,7 @@ ul.all-lista {
   line-height: 20px;
   text-align: center;
   color: #222222;
+  margin-bottom: 4px;
 }
 
 .sldr {
@@ -1087,11 +1119,15 @@ ul.all-lista {
   font-size: 14px;
   line-height: 17px;
   letter-spacing: 0.1em;
+  width: 99px;
+  text-align: center;
   color: #FFFFFF;
   background: #494949;
   border-radius: 8px;
 }
 .slid1-card .realme-txt {
+  width: 102px;
+  text-align: center;
   padding: 9px 20px;
   font-family: "Hanken Grotesk", sans-serif;
   font-style: normal;
@@ -1115,6 +1151,8 @@ ul.all-lista {
   color: #222222;
   background: #FFD1B0;
   border-radius: 8px;
+  width: 96px;
+  text-align: center;
 }
 
 .imgg img {
@@ -1136,6 +1174,10 @@ ul.all-lista {
   border-radius: 50%;
 }
 
+ul {
+  margin: 0rem !important;
+}
+
 .wandering-cardd {
   border: none !important;
   width: 187px !important;
@@ -1153,10 +1195,11 @@ ul.all-lista {
   width: 176px;
 }
 .wandering-cardd .card-body {
-  padding-top: 5px;
+  padding: 12px 22px 10px 12px !important;
 }
 .wandering-cardd .second-deals-txt {
   font-family: "Hanken Grotesk", sans-serif;
+  margin-bottom: 4px;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -1175,7 +1218,7 @@ ul.all-lista {
 }
 
 .Daily-esse .card-group1 {
-  gap: 14px;
+  gap: 15px;
 }
 
 .whole-website {

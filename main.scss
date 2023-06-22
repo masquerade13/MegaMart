@@ -121,6 +121,8 @@ input {
     align-items: center;
 }
 
+
+
 .scnd-serch-bar,
 .scnd-signup-login,
 .scnd-caart {
@@ -139,11 +141,16 @@ img.scnd-menu-btn {
     padding-left: 16px;
 }
 
+#inpt {
+    font-size: 14px;
+}
+
 .scnd-serch-bar {
     margin: 21px 0px;
-    padding: 15px 16px;
+    padding: 12px 16px;
     border-radius: 10px;
     background-color: #F3F9FB;
+    width: 507px;
 }
 
 .scnd-list {
@@ -213,7 +220,7 @@ img.scnd-menu-btn {
 
 .thrd-drop-txt-1 {
     text-decoration: none;
-    padding: 9px 6px 9px 14px;
+    padding: 9px 0px 9px 14px;
 }
 
 
@@ -279,7 +286,7 @@ img.sub-img {
 
 .thrd-dro-1,
 .submenu1 {
-    margin-left: 10px;
+    margin-left: 0px;
 }
 
 .submenu-links {
@@ -614,6 +621,7 @@ ul.all-lista {
     margin-top: 3%;
 
     .view-all-c {
+        white-space: nowrap;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -701,7 +709,11 @@ ul.all-lista {
 }
 
 .grab-the-best-deal {
-    padding: 0 10%;
+    padding: 0 8.33333%;
+}
+
+.shop-ele-top-cat{
+    padding-top: 60px;
 }
 
 .phone-div {
@@ -717,6 +729,10 @@ ul.all-lista {
 .phone-img {
     height: 100%;
     padding: 2px;
+}
+
+p{
+    margin: 0rem !important;
 }
 
 .card-group {
@@ -760,8 +776,8 @@ ul.all-lista {
             margin-bottom: 0;
         }
     }
-    
-    
+
+
 }
 
 
@@ -1122,6 +1138,24 @@ ul.all-lista {
 }
 
 
+@media (max-width: 1044px) {
+    .final-sec {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pop-categories,
+    .cust-service {
+        align-self: center !important;
+    }
+
+    .final-sec .stores {
+        flex-direction: column;
+    }
+}
+
 @media (max-width: 576px) {
     .card-group {
         display: flex;
@@ -1132,8 +1166,13 @@ ul.all-lista {
     //     display: none;
     // }
 
-    .view-all-c {
-        display: none !important;
+    // .view-all-c {
+    //     display: none !important;
+    // }
+
+    .sidebar {
+        width: 402%;
+        height: 120vh;
     }
 
 }
@@ -1152,7 +1191,7 @@ ul.all-lista {
     top: 0;
     right: 0px;
     padding: 11px 8px 10px 8px;
-
+    width: 51px;
     font-family: 'Hanken Grotesk', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -1185,7 +1224,7 @@ ul.all-lista {
 
 
 .card-group1 {
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .its-small-img {
@@ -1204,6 +1243,7 @@ ul.all-lista {
     line-height: 20px;
     text-align: center;
     color: #222222;
+    margin-bottom: 4px;
 }
 
 
@@ -1269,13 +1309,16 @@ ul.all-lista {
         font-size: 14px;
         line-height: 17px;
         letter-spacing: 0.1em;
-
+        width: 99px;
+        text-align: center;
         color: #FFFFFF;
         background: #494949;
         border-radius: 8px;
     }
-
+    
     .realme-txt {
+        width: 102px;
+        text-align: center;
         padding: 9px 20px;
         font-family: 'Hanken Grotesk', sans-serif;
         font-style: normal;
@@ -1288,7 +1331,7 @@ ul.all-lista {
         border-radius: 8px;
         margin-bottom: 25px;
     }
-
+    
     .xiaomi-txt {
         padding: 9px 20px;
         font-family: 'Hanken Grotesk', sans-serif;
@@ -1300,8 +1343,10 @@ ul.all-lista {
         color: #222222;
         background: #FFD1B0;
         border-radius: 8px;
+        width: 96px;
+        text-align: center;
     }
-
+    
 }
 
 
@@ -1322,6 +1367,10 @@ ul.all-lista {
     width: 8px;
     border: none;
     border-radius: 50%;
+}
+
+ul{
+    margin: 0rem !important;
 }
 
 
@@ -1347,12 +1396,12 @@ ul.all-lista {
     }
 
     .card-body {
-        padding-top: 5px;
+            padding: 12px 22px 10px 12px !important;
     }
 
     .second-deals-txt {
         font-family: 'Hanken Grotesk', sans-serif;
-
+        margin-bottom: 4px;
         font-style: normal;
         font-weight: 600;
         font-size: 16px;
@@ -1373,10 +1422,10 @@ ul.all-lista {
 }
 
 .Daily-esse .card-group1 {
-    gap: 14px;
+    gap: 15px;
 }
 
-.whole-website{
+.whole-website {
     overflow-x: hidden;
 }
 
@@ -1483,35 +1532,35 @@ ul.all-lista {
     border: 1px solid #05ABF3;
 }
 
-i{
+i {
     margin-left: 10px;
     font-size: 20px !important;
     margin-right: 10px;
 }
 
 
-.text-decoration-line-through{
+.text-decoration-line-through {
     font-family: 'Hanken Grotesk', sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 18px;
-text-decoration-line: line-through;
-color: #222222;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-decoration-line: line-through;
+    color: #222222;
 }
 
-.text-muted{
-    
-font-family: 'Hanken Grotesk', sans-serif;
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 18px;
-color: #249B3E !important ;
+.text-muted {
+
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    color: #249B3E !important;
 }
 
-.card-group .uni-card:hover{
+.card-group .uni-card:hover {
     border: 1px solid #008ECC !important;
-box-shadow: 0px 97px 39px rgba(0, 0, 0, 0.01), 0px 54px 33px rgba(0, 0, 0, 0.03), 0px 24px 24px rgba(0, 0, 0, 0.04), 0px 6px 13px rgba(0, 0, 0, 0.05), 0px 0px 0px rgba(0, 0, 0, 0.05);
-border-radius: 16px;
+    box-shadow: 0px 97px 39px rgba(0, 0, 0, 0.01), 0px 54px 33px rgba(0, 0, 0, 0.03), 0px 24px 24px rgba(0, 0, 0, 0.04), 0px 6px 13px rgba(0, 0, 0, 0.05), 0px 0px 0px rgba(0, 0, 0, 0.05);
+    border-radius: 16px;
 }
